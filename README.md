@@ -10,12 +10,13 @@
 
 # Tech Stack and Tools
 1. IntelliJ
-2. Java
-3. Maven
-4. Spring Boot Framework
-5. MySQL
-6. Postman
-7. Docker
+2. Maven
+3. Spring Boot Framework
+4. Java
+5. Hibernate
+6. MySQL
+7. Postman
+8. Docker
 
 # Features
 1.Customer and Admin authentication & validation.
@@ -24,9 +25,9 @@
 
   Only registered admins with valid credentials can do CRUD operations like add/update/delete.
 
-  Admin can add restaurants and food items.
+  Admin can add, update, and remove food items by their id.
 
-  Admin can remove restaurants and items.
+  Admin can view all food items, and filter by id.
 
 3. Customer Features:
 
@@ -34,6 +35,8 @@
 
   Only registered customers with valid credentials can login to the application.
 
-  Customer can view list of available items.
+  Customers can view list of available items.
 
-  Customer can add items to food cart, view cart details, placing the order, update and access other features.
+  Customers can add items to their cart, view cart details, update quantities, and delete items.
+
+  Customers can place, view, and delete orders.
